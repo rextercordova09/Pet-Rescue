@@ -1,0 +1,66 @@
+
+main{
+	padding: 0 80px 0 80px;
+	font-family: PT Serif;
+}
+main form{
+	border-radius: 5px;
+	border: solid 1px;
+	margin-top: 50px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+main button{
+	background-color: #011844;
+	color: white;
+	border-color: #011844;
+	border-radius: 5px;
+	width: 25%;
+	height: 70px;
+	font-size: 40px;
+	font-family: PT Serif;
+	cursor: pointer;
+}
+main .button{
+	background-color: white;
+	color: black;
+	border-color: black;
+	border-radius: 5px;
+}
+main .form-button {
+	width: 100%;
+	height: 180px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+main input{
+	width: 98%;
+	height: 50px;
+	margin: 15px 2px;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: PT Serif;
+	padding-left: 15px;
+	display: flex;
+	justify-content: center;
+
+
+}
+main .form-phone{
+	width: 40%;
+	height: 50px;
+	display: flex;
+}
+main #form-button{
+	display: flex;
+	justify-content: space-between;
+}
+main #form-button input{
+	width: 40%;
+}
+main form div{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}

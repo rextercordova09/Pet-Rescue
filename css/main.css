@@ -1,0 +1,117 @@
+
+header h1 , p, a{
+	font-family: PT Serif;
+}
+main img{
+	width: 200px;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+*{
+	font-weight: 400;
+}
+header div:nth-child(1) a{
+	color: black;
+}
+header p,a{
+	font-size: 20px;
+}
+header div ul{
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+ header div ul a{
+	text-decoration: none;
+	color: black;
+}
+header > div:nth-child(1){
+	width: 30%;
+	float: left;
+	height: 120px;
+}
+header div h1{
+	float:left;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 45px;
+}
+header > section:nth-child(2){
+	width:70%;
+	float: left;
+	height: 120px; 
+}
+header div p{
+	border-bottom: black 2px solid;
+	padding-bottom: 10px; 
+	float: right;
+}
+header > div:nth-child(2) div{
+	width: 20%;
+	text-align: center;
+	float: right;
+}
+header nav li{
+	padding-left: 20px;
+}
+header {
+	padding: 45px 80px 0px 80px;
+}
+body > img{
+	width: 100%;
+}
+.small-section:nth-child(1){
+	text-align: center;
+}
+.small-section:nth-child(1) h2{
+	font-size: 40px;
+	font-family: PT Serif;
+	margin-bottom: 20px;
+}
+.small-section:nth-child(1) p{
+	font-size: 20px;
+	font-family: PT Serif;
+	margin: 0;
+}
+footer strong, a{
+	font-size: 20px;
+}
+footer {
+	background-color: #1C3D7D;
+	height: 100px;
+	display: flex;
+	color: white;
+	justify-content: center;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer div:nth-child(3){
+	display: flex;
+	text-align: right;
+}
+footer div:nth-child(3) a{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+footer div:nth-child(2){
+	margin-right: 30%; 
+	margin-left:30%;
+	padding-top: 30px;
+}
+footer div:nth-child(2) a{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+footer div{
+	padding-top: 40px;
+}
+footer span{
+	font-size: 30px;
+}

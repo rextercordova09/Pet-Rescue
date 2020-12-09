@@ -1,0 +1,219 @@
+body{
+	font-family: PT Serif;
+}
+main button{
+	font-family: PT Serif;
+	cursor: pointer;
+}
+
+main .head-text{
+	font-size: 41px;
+	text-align: center;
+}
+main h2{
+	font-size: 40px;
+	font-weight: 400;
+}
+main section{
+	padding: 0px 80px 0px 80px;
+}
+main .cointainer-createpost{
+	display: flex;
+	justify-content: space-between;
+}
+main .cointainer-createpost section{
+	border:solid;
+	border-radius: 5px;
+	width: 100%;
+	border-width: 1px;
+	margin: 10px;
+}
+main .formhead{
+	display: flex;
+}
+main .formhead img{
+	width: 100px;
+	border-radius: 50%;
+}
+main .cointainer-createpost h2{
+	text-align: center;
+}
+main button{
+	background-color: #011844;
+	color: white;
+	border-color: #011844;
+	border-radius: 5px;
+}
+main .formhead p{
+	line-height: 1px;
+	margin-left: 50px;
+}
+main .formhead button{
+	margin-left: 50px;
+}
+main .createpost-image{
+	display: flex;
+	justify-content: center;
+}
+main .createpost-image img{
+	height: 133px;
+}
+main label{
+    color: white;
+    background-color: #011844;
+    border-radius: 5px;
+    padding: 4px 20px 2px 20px;
+    margin: 5px 0 5px 0;
+    width: 65%;
+    float: right;
+    font-size: 14px;
+}
+main input{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    float: left;
+    margin-top: 11px;
+}
+main .formelements{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 15%;
+    margin-right: auto;
+
+}
+main .formelements div:nth-child(2){
+   margin-left: 20px;
+}
+main .formelements div{
+    width: 30%;
+}
+main form button{
+    margin-top: 20px;
+    padding: 1px 20px 1px 20px;
+}
+main .form-button{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+main hr{
+	height: 20px;
+	width: 100%;
+	border-radius: 6px;
+	background-color:#011844;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+main .text{
+	font-size: 30px;
+	text-align: center;
+}
+main .lost-section img{
+	width: 200px;
+}
+main .lost-section section{
+	display: flex;
+	justify-content: space-between;
+}
+main .lost-section .lostpets-container{
+	border: solid 1px;
+	padding: 3%;
+	border-radius: 5px;
+	text-align: center;
+	margin: 40px;
+    width: 100%;
+
+}
+main .lostpets-container button{
+	margin-top: 20px;
+}
+main .cointainer-lostpets{
+	display: flex;
+}
+main .view{
+padding-left: 100px;
+
+}
+main .lost-section div p {
+	font-size: 20px;
+	margin: 20px;
+}
+
+main .found-section img{
+	width: 200px;
+}
+main .found-section section{
+	display: flex;
+	justify-content: space-between;
+}
+
+main .found-section .foundpets-container{
+	border: solid 1px;
+	padding: 3%;
+	border-radius: 5px;
+	text-align: center;
+	width: 100%;
+	margin: 40px;
+}
+main .foundpets-container button{
+	margin-top: 20px;
+}
+main .cointainer-foundpets{
+	display: flex;
+}
+main .found-section div p {
+	font-size: 20px;
+	margin: 20px;
+}
+main .button-view {
+	display: flex;
+	justify-content: center;
+
+	 
+	padding: 20px;
+
+}
+main .button-view button {
+	width: 205px;
+	height: 53px;
+	font-size: 30px;
+}
+main .lost-section h2 , .found-section h2{
+	padding: 0px 80px 0px 80px;
+}
+.button-view hr{
+	border-color: black;
+}
+.container-blogs{
+	display: flex;
+	justify-content: space-between;
+}
+.container-blogs .blog-card{
+	width: 100%;
+	margin: 40px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+.container-blogs .blog-card .blog-img {
+	display: flex;
+	justify-content: center;
+}
+.container-blogs .blog-card .blog-img img{
+	width: 100.6%;
+	height: 260px;
+	border-radius: 5px;
+	margin-top: -1px;
+}
+.container-blogs .blog-card .blog-content strong{
+	font-size: 18px;
+}
+.container-blogs .blog-card .blog-content p{
+	font-size: 14px;
+	padding: 0 20px 0 20px;
+}
+.container-blogs .blog-card  .blog-foot{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}

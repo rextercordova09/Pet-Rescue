@@ -1,0 +1,71 @@
+body{
+	font-family: PT Serif;
+}
+*{
+	font-weight: 400;
+}
+main h2{
+	font-size: 40px;
+	text-align: center;
+}
+main h3{
+	font-size: 35px;
+}
+main section p{
+	font-size: 20px;
+}
+
+main .container-sharepost img{
+	width: auto;
+	height: 40px;
+	margin-left: 25px;
+}
+main .main-container {
+ 	padding: 0 80px 0 80px;
+}
+
+main hr{
+	height: 20px;
+	width: 100%;
+	border-radius: 6px;
+	background-color:#011844;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+main .main-container > div{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main img{
+	width: 100%;
+}
+main form textarea{
+	border-radius: 6px;
+	border: solid 1px;
+}
+main form input{
+	height: 40px;
+    border-radius: 6px;
+    width: 430px;
+    border: solid 1px;
+}
+main form label{
+	font-size: 25px;
+}
+main form div{
+	padding-bottom: 10px;
+}
+main button{
+	background-color: #011844;
+	color: white;
+	border-color: #011844;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+
+
